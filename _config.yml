@@ -9,10 +9,10 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-#url: https://collectionbuilder.github.io 
+#url: https://collectionbuilder.github.io
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-#baseurl: /collectionbuilder-gh 
+#baseurl: /collectionbuilder-gh
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 
@@ -20,20 +20,24 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder-GH 
+title: Kate's Collection Builder Demo
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: Messing around with CollectionBuilder
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Kate Thornhill
+# name of the organization that you belong to, a link for the organization, and a logo banner.
+organization-name: "Digital Scholarship Services, University of Oregon Libraries"
+organization-link: https://library.uoregon.edu/digital-scholarship-services
+organization-logo-nav: https://library.uoregon.edu/sites/all/modules/custom/uobanner-d7-headerandfooter/images/uo-logo-hires.png
 
 ##########
 # COLLECTION SETTINGS
 #
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: demo-metadata 
+metadata: demo-metadata
 
 ##########
 # GOOGLE SERVICES [optional!]
@@ -43,16 +47,16 @@ metadata: demo-metadata
 # Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
 # google-analytics-id:
 # to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
-# google-cse-id: 
+# google-cse-id:
 
 ##########
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+# noindex: true
 
 ##########
-# BUILD SETTINGS 
+# BUILD SETTINGS
 #
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build

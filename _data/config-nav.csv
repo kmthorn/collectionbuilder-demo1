@@ -1,11 +1,13 @@
 display_name,stub,dropdown_parent
 Home,/
-Browse,/browse.html
-Subjects,/subjects.html
-Locations,/locations.html
-Map,/map.html
-Timeline,/timeline.html
-Data,/data.html
+Shobundo Collection,/shobundocollection.html
+Browse Items,/browse.html
+Explore More,,
+Subjects,/subjects.html,Explore More
+Locations,/locations.html,Explore More
+Map,/map.html,Explore More
+Timeline,/timeline.html,Explore More
+Data,/data.html,Explore More
 About,,
 The Exhibit,/about.html,About
-The Collection,/aboutcollection.html,About
+The Collections,/aboutcollection.html,About

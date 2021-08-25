@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://glam.uoregon.edu/files/original/a1554251749eab4165f69157c4c219885999b1c4.jpg" %}
+{% include feature/jumbotron.html objectid="https://glam.uoregon.edu/files/original/a1554251749eab4165f69157c4c219885999b1c4.jpgs" %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 

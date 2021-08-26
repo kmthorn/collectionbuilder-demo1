@@ -1,6 +1,6 @@
 ---
 title: About the Collection
-layout: about
+layout: page
 permalink: /shobundocollection.html
 # include CollectionBuilder info at bottom
 credits: true
@@ -10,6 +10,8 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://glam.uoregon.edu/iiif-img/1179/full/1000,737/0/default.jpg" %}
 
+<div class="row collection-narrow">
+<div class="col-12 py-5" markdown="1">
 ## The Shōbundō collection
 <!-- change image after you add assets and data -->
 {% include feature/image.html objectid="demo_001" width="50" %}
@@ -22,8 +24,19 @@ While the Starr collection offers a nearly comprehensive look at senjafuda activ
 The Shōbundō collection has not yet been digitized, and so the majority of its contents were not available for this digital exhibition. However, as one might expect, yōkai are well represented in its contents, and we’re proud to feature a few of the postwar yōkai from the Shōbundō collection here.
 
 ### Featured Votive Slips
+</div>
+
+<div class="col-6" markdown="1">
 {% include feature/image.html objectid="demo_001;demo_004;demo_001" width="75" caption="demo1;nother" %}
+</div>
+<div class="col-6" markdown="1">
 {% include feature/image.html objectid="demo_001;demo_004;demo_001" width="75" caption="demo1;nother" %}
+</div>
+
+<div class="col-12" markdown="1">
+Example text
+</div>
+</div>
 <!-- add images after adding objects and metadata -->
 
 

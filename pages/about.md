@@ -10,22 +10,46 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+<!-- How should I be thinking about coding this layout design with a mobile first approach? Whenever I have two columns the text doesn't wrap because it's contained in its own column. My goal is to not have a lot of white space under the image, and to have the text wrap to go underneath it. -->
+<div class="row about-narrow">
+<div class="col-5" markdown="1">
+## About the Digital Exhibit
 
-## This is Kate's Learning How to Use Collection Builder Site!!!!
+This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
 
-This is just some random text to practice making a commit from her local computer to the repository.
+The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti. Later they became collector’s items, and by the middle of the 19th century they had become miniature masterpieces of woodblock printed art. Senjafuda depict a dizzying variety of themes with meticulous craftsmanship and vivid, stylish graphic design.
 
-## About the Collection
+Yōkai simply means “monster,” but it’s best understood as referring specifically to monsters (and sometimes ghosts) as imagined in early modern Japan, particularly as depicted in wood-block prints. From Mizuki Shigeru to Studio Ghibli, from The Ring to Yōkai Watch, Japanese popular culture (including anime, manga, books, and film) is full of yōkai imagery.
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from:
+The University of Oregon’s collection of senjafuda is one of the largest in the world. It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+</div>
+<div class="col" markdown="1">
+{% include feature/image.html objectid="coll001" width="100" %}
+{% include feature/image.html objectid="coll002" width="100" %}
+{% include feature/image.html objectid="coll003" width="100" %}
+{% include feature/image.html objectid="coll004" width="100" %}
+</div>
+</div>
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital).
+<!-- Trying to figure out how to have a 2 row with first row containing two col. The second row contains only 1 col.-->
+<div class="row about-narrow">
+<div class="col-6" markdown="1">
+{% include feature/image.html objectid="coll002" width="100" %}
+</div>
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+<div class="col-5 about-imgpara" markdown="1">
+## MEHHHHH About the Collections
+This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
+</div>
+</div>
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %}
+<div class="row about-narrow py-1">
+<div class="col" markdown="1">
+The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti. Later they became collector’s items, and by the middle of the 19th century they had become miniature masterpieces of woodblock printed art. Senjafuda depict a dizzying variety of themes with meticulous craftsmanship and vivid, stylish graphic design.
+
+Yōkai simply means “monster,” but it’s best understood as referring specifically to monsters (and sometimes ghosts) as imagined in early modern Japan, particularly as depicted in wood-block prints. From Mizuki Shigeru to Studio Ghibli, from The Ring to Yōkai Watch, Japanese popular culture (including anime, manga, books, and film) is full of yōkai imagery.
+
+The University of Oregon’s collection of senjafuda is one of the largest in the world. It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.
+</div>
+</div>

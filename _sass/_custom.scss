@@ -1,9 +1,17 @@
-/* 
-    Put your custom SCSS here! 
+/*
+    Put your custom SCSS here!
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
-.collection-narrow {
+.about-narrow {
     margin-left: auto;
     margin-right: auto;
-    max-width: 900px;
+    max-width: 1000px;
+    padding-top: 70px;
+}
+
+.about-imgpara {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: auto;
+  padding-left: 10px;
 }

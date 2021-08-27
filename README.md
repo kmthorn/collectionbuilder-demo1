@@ -1,7 +1,3 @@
-# This is Kate's Learning How to Use CollectionBuilder
-
-This is just some random text to practice making a commit from her local computer to the repository.
-
 # collectionbuilder-gh
 
 A project to generate a free and simple digital collection site using [GitHub Pages](https://pages.github.com/) given:

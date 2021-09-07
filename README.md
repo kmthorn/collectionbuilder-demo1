@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This is Kate's Learning How to Use CollectionBuilder
 
 This is just some random text to practice making a commit from her local computer to the repository.

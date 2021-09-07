@@ -2,6 +2,8 @@
 
 This is just some random text to practice making a commit from her local computer to the repository.
 
+And here's Gabriele's first commit.
+
 # collectionbuilder-gh
 
 A project to generate a free and simple digital collection site using [GitHub Pages](https://pages.github.com/) given:

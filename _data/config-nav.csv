@@ -1,11 +1,10 @@
 display_name,stub,dropdown_parent
 Home,/
-Shobundo Collection,/shobundocollection.html
-Browse Items,/browse.html
-Explore More,,
-Subjects,/subjects.html,Explore More
-Locations,/locations.html,Explore More
-Map,/map.html,Explore More
-Timeline,/timeline.html,Explore More
-Data,/data.html,Explore More
-About,/about.html
+The World of Senjafuda,/senjafudaworld.html
+The World of Yōkai,/yokaiworld.html
+The Objects & Their Collections,,
+Browse Objects,/browse.html,The Objects & Their Collections
+Senjafuda Collections at UO,/senjafudacollectionsuo.html,The Objects & Their Collections
+Glossary,/glossary.html
+Bibliography,/bibliography.html
+Credits,/about.html
